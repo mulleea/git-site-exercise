@@ -1,4 +1,44 @@
-body {
-    background-color: darkblue;
+
+
+div{
+    border: 10px solid darkslategray;
+    padding: 50px;
+    background-color: gray;
+    color:black;
+    height: 300px;
+    
+}
+
+#symptoms{
+    width:40%;
+}
+
+#medical-attn{
+    width:40%;
+    position: relative;
+    left: 46%;
+    bottom:420px;
+}
+
+#prevention{
+    position: relative;
+    bottom:480px;
+    width: 86%;
+}
+
+button{
+    font-size:1.5em;
+    border: 5px solid darkslategray;
+    background-color: whitesmoke;
+}
+button:hover{
+    background-color: darkslategray;
     color: white;
+}
+
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05em;
 }
